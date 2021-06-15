@@ -398,3 +398,47 @@ body {
     margin-right: 0;
   }
 }
+@media (max-width: 760px) {
+  .header-container,
+  .hero-container,
+  .about-description,
+  .footer-container,
+  .warp-readers {
+    max-width: 560px;
+  }
+  .hero-image,
+  .image-block {
+    width: 556px;
+    height: 788px;
+  }
+  .image-block {
+    margin-bottom: 60px;
+  }
+  .hero-container {
+    flex-wrap: wrap;
+  }
+  .about {
+    padding-top: 86px;
+    padding-bottom: 86px;
+  }
+  .image-4,
+  .image-5,
+  .image-10,
+  .image-9 {
+    display: none;
+  }
+  .readers-photos {
+    flex-wrap: wrap;
+  }
+  .readers-image {
+    justify-content: space-between;
+    width: 166px;
+    height: 166px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .footer__request-block {
+    margin-bottom: 60px;
+  }
+}
