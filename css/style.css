@@ -397,6 +397,9 @@ body {
   .footer__info-block {
     margin-right: 0;
   }
+  .book-description {
+    margin-bottom: 35px;
+  }
 }
 @media (max-width: 760px) {
   .header-container,
@@ -440,5 +443,134 @@ body {
   }
   .footer__request-block {
     margin-bottom: 60px;
+  }
+  .book-description {
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 577px) {
+  .header-container,
+  .hero-container,
+  .about-description,
+  .footer-container,
+  .warp-readers {
+    max-width: 480px;
+  }
+  .hero-image,
+  .image-block {
+    width: 477px;
+    height: 671px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    width: 240px;
+    font-size: 20px;
+  }
+  .info,
+  .info-weight {
+    flex-basis: 100%;
+  }
+  .button {
+    width: 482px;
+    height: 78px;
+    margin-bottom: 50px;
+  }
+  .buy {
+    padding: 27px 189px;
+    font-size: 16px;
+  }
+  .about {
+    padding-top: 61px;
+    padding-bottom: 97px;
+  }
+  .warp-readers {
+    padding-top: 55px;
+  }
+  .readers-image {
+    width: 145px;
+    height: 145px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer__request-block,
+  .footer__info-block {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 320px) {
+  .header-container,
+  .hero-container,
+  .about-description,
+  .footer-container,
+  .warp-readers {
+    max-width: 263px;
+  }
+  .hero-image,
+  .image-block {
+    width: 263px;
+    height: 370px;
+  }
+  .sale-label {
+    font-size: 9px;
+    padding: 6px 9px;
+  }
+  .author {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .favrites-text {
+    display: none;
+  }
+  .button {
+    width: 263px;
+    height: 61px;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  .buy {
+    padding: 18px 80px;
+  }
+  .avatar {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+  }
+  .author-description {
+    padding: 33px 25px 44px 23px;
+    width: 267px;
+    height: 261px;
+  }
+  .abut-name {
+    font-size: 16px;
+  }
+  .socials-description,
+  .portfolio {
+    font-size: 14px;
+  }
+  .web-driver {
+    display: none;
+  }
+  .readers-image {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 13px;
+  }
+  .image-7,
+  .image-8 {
+    display: none;
+  }
+  .warp-readers {
+    padding-bottom: 70px;
+  }
+  .footer-container {
+    padding-bottom: 75px;
   }
 }
